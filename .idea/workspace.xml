@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2953f55a-9bdc-4d55-9166-94d5556e0dbc" name="更改" comment="2026.9.14学习" />
+    <list default="true" id="2953f55a-9bdc-4d55-9166-94d5556e0dbc" name="更改" comment="2026.9.14学习">
+      <change afterPath="$PROJECT_DIR$/executor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agents/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agents/plan_solve_agent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agents/react_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/react_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/ch4_plan_solve_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/ch4_react_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlearninghistory/agents_02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlearninghistory/helloagents_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlearninghistory/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldlearninghistory/work1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/plan_solve_prompts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/react_prompts.py" beforeDir="false" afterPath="$PROJECT_DIR$/react_prompts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/llm_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/llm_client.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,36 +67,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS 重要消息&quot;,
-    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
-    &quot;Python.October_sixth.executor&quot;: &quot;Run&quot;,
-    &quot;Python.agents_02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.helloagents_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lim_client.executor&quot;: &quot;Run&quot;,
-    &quot;Python.work1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MirrorX/Desktop/HelloAgents/tools&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;qoder.settings.plugin&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS 重要消息",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
+    "Python.October_sixth.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.agents_02.executor": "Run",
+    "Python.executor.executor": "Run",
+    "Python.helloagents_01.executor": "Run",
+    "Python.lim_client.executor": "Run",
+    "Python.llm_client.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.search.executor": "Run",
+    "Python.work1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/MirrorX/Desktop/HelloAgents/tools",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "qoder.settings.plugin",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\MirrorX\Desktop\HelloAgents\tools" />
       <recent name="C:\Users\MirrorX\Desktop\HelloAgents\prompts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MirrorX\Desktop\HelloAgents" />
       <recent name="C:\Users\MirrorX\Desktop\HelloAgents\oldlearninghistory" />
     </key>
   </component>
@@ -97,7 +126,9 @@
       <workItem from="1790251512403" duration="205000" />
       <workItem from="1791203663671" duration="3011000" />
       <workItem from="1791288860553" duration="6613000" />
-      <workItem from="1791295499448" duration="294000" />
+      <workItem from="1791295499448" duration="542000" />
+      <workItem from="1791375397911" duration="2804000" />
+      <workItem from="1791378233840" duration="1801000" />
     </task>
     <task id="LOCAL-00001" summary="2026.9.14学习">
       <option name="closed" value="true" />
@@ -121,6 +152,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -137,10 +171,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="2026.9.14学习" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HelloAgents$executor.coverage" NAME="executor 覆盖结果" MODIFIED="1791379311116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HelloAgents$work1.coverage" NAME="work1 覆盖结果" MODIFIED="1791292268605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HelloAgents$agents_02.coverage" NAME="agents_02 覆盖结果" MODIFIED="1791292597315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HelloAgents$helloagents_01.coverage" NAME="helloagents_01 覆盖结果" MODIFIED="1791204598255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HelloAgents$search.coverage" NAME="search 覆盖结果" MODIFIED="1791377319087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/HelloAgents$main.coverage" NAME="main 覆盖结果" MODIFIED="1791379440611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HelloAgents$October_sixth.coverage" NAME="October_sixth 覆盖结果" MODIFIED="1791292654540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HelloAgents$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1791377087600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/HelloAgents$llm_client.coverage" NAME="llm_client 覆盖结果" MODIFIED="1791377567539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/HelloAgents$lim_client.coverage" NAME="lim_client 覆盖结果" MODIFIED="1791293822673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
 </project>
