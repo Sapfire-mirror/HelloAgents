@@ -5,28 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2953f55a-9bdc-4d55-9166-94d5556e0dbc" name="更改" comment="2026.9.14学习">
-      <change afterPath="$PROJECT_DIR$/executor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plansolove/plansolve_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plansolove/plansolve_executor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plansolove/plansolve_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plansolove/plansolve_prompts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/execution_prompts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/memory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/refinement_prompts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/reflection_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/reflection_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/reflection_prompts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/plan_solve_agent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/react_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/react_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/ch4_plan_solve_demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/ch4_react_demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oldlearninghistory/agents_02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oldlearninghistory/helloagents_01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oldlearninghistory/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oldlearninghistory/work1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prompts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prompts/plan_solve_prompts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prompts/react_prompts.py" beforeDir="false" afterPath="$PROJECT_DIR$/react_prompts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/llm_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/llm_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/React/react_executor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/React/react_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/React/react_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_prompts.py" beforeDir="false" afterPath="$PROJECT_DIR$/React/react_prompts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/React/search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +74,17 @@
     "Python.lim_client.executor": "Run",
     "Python.llm_client.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.plansolve_main.executor": "Run",
+    "Python.react_main.executor": "Run",
+    "Python.reflection_agent.executor": "Run",
+    "Python.reflection_main.executor": "Run",
     "Python.search.executor": "Run",
     "Python.work1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/MirrorX/Desktop/HelloAgents/tools",
+    "last_opened_file_path": "C:/Users/MirrorX/Desktop/HelloAgents/Reflection",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,10 +96,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MirrorX\Desktop\HelloAgents\Reflection" />
+      <recent name="C:\Users\MirrorX\Desktop\HelloAgents" />
       <recent name="C:\Users\MirrorX\Desktop\HelloAgents\tools" />
       <recent name="C:\Users\MirrorX\Desktop\HelloAgents\prompts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MirrorX\Desktop\HelloAgents\React" />
+      <recent name="C:\Users\MirrorX\Desktop\HelloAgents\Plansolove" />
       <recent name="C:\Users\MirrorX\Desktop\HelloAgents" />
       <recent name="C:\Users\MirrorX\Desktop\HelloAgents\oldlearninghistory" />
     </key>
@@ -128,7 +130,8 @@
       <workItem from="1791288860553" duration="6613000" />
       <workItem from="1791295499448" duration="542000" />
       <workItem from="1791375397911" duration="2804000" />
-      <workItem from="1791378233840" duration="1801000" />
+      <workItem from="1791378233840" duration="3156000" />
+      <workItem from="1791548550058" duration="5291000" />
     </task>
     <task id="LOCAL-00001" summary="2026.9.14学习">
       <option name="closed" value="true" />
@@ -172,14 +175,18 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloAgents$executor.coverage" NAME="executor 覆盖结果" MODIFIED="1791379311116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/HelloAgents$work1.coverage" NAME="work1 覆盖结果" MODIFIED="1791292268605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/HelloAgents$agents_02.coverage" NAME="agents_02 覆盖结果" MODIFIED="1791292597315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HelloAgents$reflection_main.coverage" NAME="reflection_main 覆盖结果" MODIFIED="1791553390794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Reflection" />
     <SUITE FILE_PATH="coverage/HelloAgents$helloagents_01.coverage" NAME="helloagents_01 覆盖结果" MODIFIED="1791204598255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HelloAgents$search.coverage" NAME="search 覆盖结果" MODIFIED="1791377319087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
-    <SUITE FILE_PATH="coverage/HelloAgents$main.coverage" NAME="main 覆盖结果" MODIFIED="1791379440611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/HelloAgents$October_sixth.coverage" NAME="October_sixth 覆盖结果" MODIFIED="1791292654540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HelloAgents$plansolve_main.coverage" NAME="plansolve_main 覆盖结果" MODIFIED="1791550088216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Plansolove" />
+    <SUITE FILE_PATH="coverage/HelloAgents$react_main.coverage" NAME="react_main 覆盖结果" MODIFIED="1791550032852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/React" />
     <SUITE FILE_PATH="coverage/HelloAgents$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1791377087600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/HelloAgents$llm_client.coverage" NAME="llm_client 覆盖结果" MODIFIED="1791377567539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/HelloAgents$work1.coverage" NAME="work1 覆盖结果" MODIFIED="1791292268605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HelloAgents$reflection_agent.coverage" NAME="reflection_agent 覆盖结果" MODIFIED="1791553116062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Reflection" />
+    <SUITE FILE_PATH="coverage/HelloAgents$agents_02.coverage" NAME="agents_02 覆盖结果" MODIFIED="1791292597315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HelloAgents$main.coverage" NAME="main 覆盖结果" MODIFIED="1791381369384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HelloAgents$October_sixth.coverage" NAME="October_sixth 覆盖结果" MODIFIED="1791292654540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HelloAgents$lim_client.coverage" NAME="lim_client 覆盖结果" MODIFIED="1791293822673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
 </project>
